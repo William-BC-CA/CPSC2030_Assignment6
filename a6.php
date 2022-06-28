@@ -18,7 +18,7 @@
       else {
         echo "$animals, ";
       }
-      $counter..; // https://www.php.net/manual/en/language.operators.increment.php
+      $counter++; // https://www.php.net/manual/en/language.operators.increment.php
     }
     echo "</div>";
   }
