@@ -22,6 +22,12 @@
     }
     echo "</div>";
   }
+
+  function the_color_form(){
+    echo "<p>Which color do you prefer for the text of this page?</p>";
+
+    echo "<input type = 'submit'>Submit</input>";
+  }
 ?>
 <!DOCTYPE html>
 <html style="">
