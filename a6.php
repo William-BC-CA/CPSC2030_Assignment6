@@ -1,5 +1,5 @@
 <?php 
-  $my_name = "william_chan";
+  $my_name = "William Chan";
   $description = "I use computers.";
   $favourite_animals = ["cheetahs", "fish", "rhinos", "cougars"];
 
@@ -18,7 +18,7 @@
     $counter = 0;
     foreach ($favourite_animals as $animals){
       if ($counter == count($favourite_animals) - 1){
-        echo "and $animals</p>";
+        echo "and $animals.</p>";
       }
       else {
         echo "$animals, ";
@@ -54,6 +54,7 @@
 
         <?php
           the_developer_profile();
+          the_color_form();
         ?>
 
     </header>
