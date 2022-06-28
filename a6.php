@@ -29,10 +29,10 @@
   }
 
   function the_color_form(){
+    echo "<div class = 'page-color'>";
     echo "<form method = 'POST'>";
     echo "<input type = 'color'>";
     echo "</form>";
-    echo "<div class = 'page-color'>";
     echo "<p>Which color do you prefer for the text of this page? <input type = 'submit'></input></p>";
     echo "</div>";
   }
