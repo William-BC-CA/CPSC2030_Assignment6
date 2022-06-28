@@ -5,7 +5,12 @@
 
   function the_developer_profile(){
     echo "<div>";
-    echo "Developer Profile: " . $my_name;
+
+    global $my_name;
+    global $description;
+    global $animals;
+
+    echo "Developer Profile: $my_name";
     echo "Description: $description";
     // echo "<p>His favourite animals are " . $favourite_animals . "</p>";
     echo "<p>His favourite animals are ";
