@@ -17,7 +17,7 @@
     // https://www.w3schools.com/php/php_looping_foreach.asp
     $counter = 0;
     foreach ($favourite_animals as $animals){
-      if ($counter == count($favourite_animals)){
+      if ($counter == count($favourite_animals) - 1){
         echo "and $animals</p>";
       }
       else {
