@@ -53,8 +53,8 @@
     <meta charset="utf-8">
     <title>Assigment 6: Hello PHP World!</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="icomoon/style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!--<link rel="stylesheet" href="icomoon/style.css">-->
 
   </head>
   <body>
