@@ -68,7 +68,6 @@
         <?php
           the_developer_profile();
           the_color_form();
-          get_color();
         ?>
 
     </header>
