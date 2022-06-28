@@ -30,11 +30,18 @@
 
   function the_color_form(){
     echo "<div class = 'page-color'>";
-    echo "<form method = 'POST'>";
-    echo "<p><input type = 'color'>";
+    echo "<form method = 'POST' action = 'a6.php'>";
+    echo "<p><input type = 'color' name = 'lecolor'>";
     echo "Which color do you prefer for the text of this page? <input type = 'submit'></input></p>";
     echo "</form>";
     echo "</div>";
+    $couleur = $_POST['lecolor'];
+  }
+
+  function get_color(){
+    if (isset($_POST['lecolor'])){
+      return $_POST['lecolor'];
+    }
   }
 ?>
 <!DOCTYPE html>
@@ -58,6 +65,7 @@
         <?php
           the_developer_profile();
           the_color_form();
+          get_color();
         ?>
 
     </header>
