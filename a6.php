@@ -41,6 +41,10 @@
           An Introduction to Server-Side Scripting.
         </div>
 
+        <?php
+          the_developer_profile();
+        ?>
+
     </header>
 
     <main>
